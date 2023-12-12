@@ -1,0 +1,23 @@
+<html>
+<head></head>
+<body>
+
+</body>
+
+<script>//about localstorage 
+   let product={
+      company:'apple',
+      strorage:5000,
+      rating:4.5,
+  
+   }
+localStorage.setItem('company' ,'orange')
+console.log(localStorage.getItem('company'))
+ 
+localStorage.setItem('product',JSON.stringify(product))
+console.log(localStorage.getItem('product'))
+// localStorage.removeItem('company')
+// localStorage.clear()
+   </script>
+
+ </html>
